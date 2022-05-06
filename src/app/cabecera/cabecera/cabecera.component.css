@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: rgba(107, 21, 0, 0.75);
+    height: 6em;
+    cursor: url(https://sweezy-cursors.com/wp-content/uploads/cursor/harry-potter-nimbus-2000/harry-potter-nimbus-2000-pointer--32x32.png), pointer!important;
+}
+
+header .izq, header .der {
+    width: 25%;
+}
+
+header .centro {
+    width: 50%;
+    text-align: center;
+    margin-top: 1.5em;
+    color: white;
+    overflow: hidden;
+
+}
+
+header .izq, header .der, header .centro {
+    float: left;
+    height: 6em;
+}
+
+.logo {
+    display: block;
+    width: 4.5em;
+    margin: auto auto;
+    height: 6em;
+    transition: all 1s;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}
+
+header h1 {
+    font-family: 'Satisfy', cursive;
+    transition: all 1s;
+    font-size: 4.9vh;
+}
+
+header h1:hover {
+    transform: scale(1.1);
+}
+
+.boton{
+    float: right;
+    margin-top: 1.6em;
+    margin-right: 1.2em;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    background: rgb(107, 21, 0);
+    padding: 10px;
+    transition: all 1s;
+}
+
+.boton:hover{
+    background: rgb(165, 33, 0);
+}
+
+.boton a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+/* menu */
+
+#menu {
+    margin-top: 1.5em;
+    margin-right: 1vw;
+    
+}
+
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    background-color:rgb(107, 21, 0);
+    width: 33%;
+    text-align: center;
+   }
+   
+   /* enlaces del menu */
+   
+   #menu ul a {
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight:400;
+    font-size:12px;
+    padding:10px;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+   }
+   
+   /* items del menu */
+   
+   #menu ul li {
+    position:relative;
+    float:right;
+    margin:0;
+    padding:0;
+   }
+   
+   /* efecto al pasar el ratón por los items del menu */
+   
+   #menu ul li:hover {
+    background:#5b78a7;
+    transition: all 1s;
+   }
+
+   /* menu desplegable */
+
+#menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    background:#eee;
+    padding:0;
+   }
+   
+   /* items del menu desplegable */
+   
+   #menu ul ul li {
+    float:none;
+    width:150px;
+   }
+   
+   /* enlaces de los items del menu desplegable */
+   
+   #menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+   }
+   
+   /* items del menu desplegable al pasar el ratón */
+   
+   #menu ul li:hover > ul {
+    display:block;
+   }

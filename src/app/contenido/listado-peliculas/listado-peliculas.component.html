@@ -1,0 +1,10 @@
+<div class="fullscreen-bg">
+    <video loop muted autoplay class="fullscreen-bg_video">
+         <source src="./assets/videos/bg.mp4" type="video/mp4">
+    </video>
+</div>
+<div id="listado">
+    <div *ngFor="let pelicula of peliculas">
+        <app-pelicula [pelicula]="pelicula"></app-pelicula>
+    </div>
+</div>
